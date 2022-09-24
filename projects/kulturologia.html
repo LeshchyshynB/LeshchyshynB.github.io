@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Проект</title>
+	<link rel="stylesheet" type="text/css" href="style_kutlurologia.css">
+</head>
+<body>
+	<div>
+		<button id="nowhide" class="center" onclick="showandhide()">Показати/скачати презентацію</button>
+		<iframe id="togglediv" class="pdfiframe" src="II інтернаціонал та демократія.pdf" width="1000" height="620" frameborder="0"></iframe>
+		
+		
+		<script type="text/javascript">
+			function showandhide() {
+			  document.getElementById("togglediv").style.display = "block";
+			  document.getElementById("nowhide").style.display = "none";
+			}
+		</script>
+	</div>
+</body>
+</html>

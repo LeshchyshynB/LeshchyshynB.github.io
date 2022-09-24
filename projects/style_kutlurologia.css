@@ -1,12 +1,3 @@
-.block1 {
-    width: 200px; 
-    padding: 5px;
-    padding-right: 20px; 
-    border: solid 1px black; 
-    margin-right: auto;
-    margin-left: auto;
-    border: unset;
-}
 .pdfiframe {
     margin-right: auto;
     margin-left: auto;

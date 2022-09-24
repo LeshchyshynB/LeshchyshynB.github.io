@@ -10,4 +10,9 @@
 .pdfiframe {
     margin-right: auto;
     margin-left: auto;
+    display: none;
+}
+.center {
+    margin-right: auto;
+    margin-left: auto;
 }

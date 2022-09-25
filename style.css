@@ -15,5 +15,45 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-}   
+    font-size: 25px;
+}
+.disablepage {
+    color: black;
+}
+.activepage {
+    background-color: purple;
+    color: white;
+}
+#discordbutton {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    display: block;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: fit-content;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}

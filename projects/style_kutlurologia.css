@@ -22,10 +22,38 @@
     text-decoration: none;
     font-size: 25px;
 }
+.topnav span {
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
 .disablepage {
     color: black;
 }
 .activepage {
     background-color: purple;
     color: white;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    overflow: auto;
+    position: absolute;
+}
+.dropdown:hover span {
+    background-color: purple;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
 }

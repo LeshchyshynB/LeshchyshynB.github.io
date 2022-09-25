@@ -17,6 +17,14 @@
     text-decoration: none;
     font-size: 25px;
 }
+.topnav span {
+    padding-right: 12.5px;
+    padding-left: 12.5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
 .disablepage {
     color: black;
 }
@@ -41,12 +49,14 @@
 }
 .dropdown {
     display: inline-block;
-    position: relative;
 }
 .dropdown-content {
     display: none;
+    overflow: auto;
     position: absolute;
-    width: 100%;
+}
+.dropdown:hover span {
+    background-color: purple;
 }
 .dropdown:hover .dropdown-content {
     display: block;

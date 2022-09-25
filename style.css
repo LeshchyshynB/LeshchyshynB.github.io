@@ -46,7 +46,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    width: fit-content;
+    width: 100%;
 }
 .dropdown:hover .dropdown-content {
     display: block;

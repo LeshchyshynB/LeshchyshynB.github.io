@@ -1,5 +1,6 @@
 body {
     background-image: url('./background.jpg');
+    color: white;
 }
 .center {
     margin-right: auto;
@@ -89,4 +90,12 @@ body {
     animation-name: rotate;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+}
+@keyframes anbutton {
+    0%  {
+
+    }
+    100%  {
+
+    }
 }

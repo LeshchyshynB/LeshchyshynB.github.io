@@ -1,5 +1,5 @@
 body {
-    background-image: url('background.jpg');
+    background-image: url('./background.jpg');
 }
 .center {
     margin-right: auto;

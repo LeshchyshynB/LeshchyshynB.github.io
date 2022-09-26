@@ -1,6 +1,12 @@
+body {
+    background-image: url('../../background.jpg');
+}
 .pdfiframe {
     margin-right: auto;
     margin-left: auto;
+    display: block;
+}
+#togglediv {
     display: none;
 }
 .center {

@@ -33,10 +33,12 @@ html {
 }
 .disablepage {
     color: white;
+    border-radius: 20px;
 }
 .activepage {
-    background-color: purple;
+    background-color: rgb(51, 0, 51);
     color: white;
+    border-radius: 20px;
 }
 #discordbutton {
     width: 200px;
@@ -58,21 +60,35 @@ html {
 }
 .dropdown-content {
     display: none;
-    overflow: auto;
+    overflow: hidden;
     position: absolute;
+    height: fit-content;
+    border-radius: 10px;
+    animation-name: dropdownmenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 .dropdown:hover span {
-    background-color: purple;
-    position: relative;
+    background-color: rgb(51, 0, 51);
 }
 .dropdown:hover .dropdown-content {
     display: block;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-width: 5px;
+    scroll-behavior: unset;
+    box-sizing: border-box;
 }
 .dropdown-content a {
     display: block;
-    color: #000000;
-    padding: 5px;
+    position: relative;
+    color: white;
+    padding: 20px, 40px;
     text-decoration: none;
+    animation-name: dropdownmenua;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 @keyframes rotate {
     0%   {
@@ -99,5 +115,27 @@ html {
     }
     100%  {
 
+    }
+}
+@keyframes dropdownmenua {
+    0%  {
+        color: rgba(255, 255, 255, 0);
+    }
+    100%  {
+        color: rgba(255, 255, 255, 1);
+    }
+        
+}
+@keyframes dropdownmenu {
+    0%  {
+        top: 0px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    50%  {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    100%  {
+        top: 70px;
+        background-color: rgba(0, 0, 0, 1);
     }
 }

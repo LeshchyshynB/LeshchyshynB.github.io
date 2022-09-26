@@ -41,10 +41,12 @@ html {
 }
 .disablepage {
     color: white;
+    border-radius: 20px;
 }
 .activepage {
-    background-color: purple;
+    background-color: rgb(51, 0, 51);
     color: white;
+    border-radius: 20px;
 }
 .dropdown {
     display: inline-block;
@@ -55,7 +57,7 @@ html {
     position: absolute;
 }
 .dropdown:hover span {
-    background-color: purple;
+    background-color: rgb(51, 0, 51);
 }
 .dropdown:hover .dropdown-content {
     display: block;

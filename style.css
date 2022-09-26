@@ -1,5 +1,7 @@
 body {
     background-image: url('./background.jpg');
+}
+html {
     color: white;
 }
 .center {

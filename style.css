@@ -4,6 +4,14 @@ body {
 html {
     color: white;
 }
+.pdfiframe {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+#togglediv {
+    display: none;
+}
 .center {
     margin-right: auto;
     margin-left: auto;
@@ -34,11 +42,21 @@ html {
 .disablepage {
     color: white;
     border-radius: 20px;
+    background: linear-gradient(to top, rgba(51, 0, 51, 1) 50%, rgba(51, 0, 51, 0) 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: all .5s ease-out;
+}
+.disablepage:hover {
+    background-position: bottom;
 }
 .activepage {
-    background-color: rgb(51, 0, 51);
     color: white;
     border-radius: 20px;
+    background-color: rgba(51, 0, 51, 1);
+}
+.disablelist {
+    color: white;
 }
 #discordbutton {
     width: 200px;
@@ -68,6 +86,9 @@ html {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+.dropdown-content:hover {
+    background-position: left;
+}
 .dropdown:hover span {
     background-color: rgb(51, 0, 51);
 }
@@ -89,6 +110,13 @@ html {
     animation-name: dropdownmenua;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    background: linear-gradient(to right, rgba(51, 0, 51, 1) 50%, rgba(51, 0, 51, 0) 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all .5s ease-out;
+}
+.dropdown-content a:hover {
+    background-position: left;
 }
 @keyframes rotate {
     0%   {
@@ -108,14 +136,6 @@ html {
     animation-name: rotate;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
-}
-@keyframes anbutton {
-    0%  {
-
-    }
-    100%  {
-
-    }
 }
 @keyframes dropdownmenua {
     0%  {

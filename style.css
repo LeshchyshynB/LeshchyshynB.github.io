@@ -4,18 +4,39 @@ body {
 html {
     color: white;
 }
-.pdfiframe {
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-#togglediv {
-    display: none;
-}
 .center {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+.pdfiframe {
+    display: block;
+    font-size: 18;
+}
+.button {
+    background-color: unset;
+    border: none;
+    font-size: 20;
+}
+.centertext {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25;
+    border-style: dashed;
+    border-color: darkviolet;
+    border-width: 5px;
+    padding: 5px;
+}
+#togglediv1 {
+    display: none;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv2 {
+    display: none;
 }
 .topnav {
     overflow: hidden;

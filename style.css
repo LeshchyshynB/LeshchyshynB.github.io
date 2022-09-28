@@ -31,12 +31,15 @@ html {
 }
 #togglediv1 {
     display: none;
-    width: 800px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
 #togglediv2 {
     display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .topnav {
     overflow: hidden;
@@ -169,14 +172,14 @@ html {
 }
 @keyframes dropdownmenu {
     0%  {
-        top: 60px;
+        top: 55px;
         background-color: rgba(0, 0, 0, 0);
     }
     50%  {
         background-color: rgba(0, 0, 0, 0.7);
     }
     100%  {
-        top: 80px;
+        top: 70px;
         background-color: rgba(0, 0, 0, 1);
     }
 }

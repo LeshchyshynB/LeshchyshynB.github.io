@@ -4,6 +4,11 @@ body {
 html {
     color: white;
 }
+.img {
+    float: left;
+    display: block;
+    padding-right: 5px;
+}
 .center {
     margin-right: auto;
     margin-left: auto;
@@ -25,7 +30,7 @@ html {
     margin-right: auto;
     font-size: 25;
     border-style: dashed;
-    border-color: darkviolet;
+    border-color: white;
     border-width: 5px;
     padding: 5px;
 }
@@ -36,6 +41,54 @@ html {
     margin-right: auto;
 }
 #togglediv2 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv3 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv4 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv5 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv6 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv7 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv8 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv9 {
+    display: none;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#togglediv10 {
     display: none;
     width: 850px;
     margin-left: auto;
